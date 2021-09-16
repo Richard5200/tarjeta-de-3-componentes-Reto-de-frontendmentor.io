@@ -1,0 +1,150 @@
+body{
+   width: 100%;
+   height: 100%;
+   
+}
+/*contenedores*/
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100%;
+   width: 100%;
+}
+.container-card{
+   display: flex;
+   flex-flow: row;
+   overflow: hidden;
+   border-radius:40px;
+   height:auto;
+   margin: 10em 10.5em;
+   border-radius: 15px;
+   
+}
+
+.element1{
+   background-color:hsl(31, 77%, 52%);
+   color: white;
+}
+
+.element2{
+    background-color:hsl(184, 100%, 22%);   
+    color: white;
+}
+
+.element3{
+    background-color:hsl(179, 100%, 13%);
+    color: white;
+}
+
+/*texto*/
+.container-card h1{
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 50px 50px 50px;
+}
+
+.container-card p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 60px 50px 50px;
+    line-height:30px;
+}
+
+/*botones*/
+.button-1{
+    width:9vw;
+    height:5vh;
+    border-radius: 40px;
+    color: hsl(31, 77%, 52%);
+    background-color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    margin: 50px 50px 50px 50px;
+}
+
+.button-1:hover{
+    background-color:hsl(31, 77%, 52%);
+    color: white;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.button-2{
+    width:9vw;
+    height:5vh;
+    border-radius: 40px;
+    color: hsl(184, 100%, 22%);
+    background-color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    margin: 50px 50px 50px 50px;
+}
+
+.button-2:hover{
+    background-color:hsl(184, 100%, 22%);
+    color: white;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.button-3{
+    width:12vw;
+    height:5vh;
+    border-radius: 40px;
+    color: hsl(179, 100%, 13%);
+    background-color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    margin: 50px 50px 50px 50px;
+}
+
+.button-3:hover{
+    background-color:hsl(179, 100%, 13%);
+    color: white;
+    border-color: white;
+    transition: 0.4s;
+}
+/*img*/
+.container-card img{
+    margin: 50px 50px 50px 50px;
+}
+
+/*responsive*/
+@media (max-width: 1023px) {
+    .container-card{
+        display: block;
+        margin: 2em 0.5em;
+        width: 80%;
+    }  
+
+    .button-1, .button-2, .button-3{
+        width:42vw;
+        height:7vh;
+        border-radius: 40px;
+        margin: 0px 40px 30px 40px;  
+    }
+    
+    .container-card p{    
+       font-size: 15px;
+       font-weight: 200;
+       margin: 20px 40px 40px 40px;
+    }
+    .container-card h1{
+      font-size:40px;
+      font-weight: 200;
+      margin: 0px 40px 30px 40px;      
+    }
+    
+    .container-card img{
+      margin: 20px 40px 20px 40px;
+    }
+}
