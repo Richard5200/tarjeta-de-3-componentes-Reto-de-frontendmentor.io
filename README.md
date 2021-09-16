@@ -21,3 +21,5 @@ Este componente tambien cuenta con lo que es una vista de dispositivo movil.
  <img src="https://github.com/Richard5200/tarjeta-de-3-componentes-Reto-de-frontendmentor.io/blob/main/design/mobile-design.jpg" alt="">
 
 </p>
+
+Ver pagina:https://richard5200.github.io/tarjeta-de-3-componentes-Reto-de-frontendmentor.io/
